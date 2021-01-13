@@ -3,6 +3,11 @@
 // You can read about ES6 modules here: https://exploringjs.com/es6/ch_modules.html#sec_basics-of-es6-modules
 const data = [
   {
+    title: 'President Trump got Impeached again LOL',
+    date: 'January 13, 2021',
+    firstParagraph: `Let's hope the Senate convicts and removes him from office for good!`,
+  },
+  {  
     title: 'Lambda School Students: "We\'re the best!"',
     date: 'Nov 5th, 2018',
     firstParagraph: `Lucas ipsum dolor sit amet ben twi'lek padmé darth darth darth moff hutt organa twi'lek. Ben amidala secura skywalker lando

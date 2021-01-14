@@ -135,7 +135,6 @@ articleP3.textContent = thirdParagraph
 const articleSpan = document.createElement('span')
 articleSpan.classList.add('expandButton')
 articleSpan.textContent = '+'
-console.log(articlesDiv)
 
 articleContainer.appendChild(articleTitle)
 articleContainer.appendChild(articleDate)

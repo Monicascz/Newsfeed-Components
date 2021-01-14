@@ -12,7 +12,7 @@ let menuItems = [
  
   // Step 1: Write a component called 'menuMaker' to create a menu like the markup below:
 const menuButtonImg = document.querySelector('.menu-button')
-
+const header = document.querySelector('.header')
 function menuMaker(menuItem){
 
  
@@ -40,9 +40,12 @@ menuButtonImg.addEventListener('click', ()=>{
   menuContainer.classList.toggle('menu--open')
 })
 
+
 return menuContainer;
 }
-menuMaker(menuItems);
+
+
+header.appendChild(menuMaker(menuItems))
 
 
   // The 'menuMaker' takes an array of menu items as its only argument.
